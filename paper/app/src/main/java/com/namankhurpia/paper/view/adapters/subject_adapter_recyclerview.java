@@ -228,7 +228,7 @@ public class subject_adapter_recyclerview extends RecyclerView.Adapter<subject_a
     //load ads
     private void loadads() {
 
-        interstitialAd = new InterstitialAd(context, "2137144932995368_2149805268396001");
+        interstitialAd = new InterstitialAd(context, "api-key-removed");
         interstitialAd.setAdListener(new AbstractAdListener() {
             @Override
             public void onError(Ad ad, AdError adError) {
