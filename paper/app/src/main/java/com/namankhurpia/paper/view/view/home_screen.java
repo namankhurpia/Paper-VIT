@@ -47,23 +47,7 @@ public class home_screen extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        //ads initialization
-       /* MobileAds.initialize(this, "ca-app-pub-9666602807571879~1577101558");
-        interstitialAd =new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        interstitialAd.loadAd(new AdRequest.Builder().build());
-
-
-        interstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-
-                //startActivity(new Intent(home_screen.this,catone.class));
-                ///interstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-*/
+       
 
 
 
