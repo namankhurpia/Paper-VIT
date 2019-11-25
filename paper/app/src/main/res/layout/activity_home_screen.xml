@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#37434D"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.namankhurpia.paper.view.view.home_screen">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Paper VIT"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.05"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Time"
+        android:layout_weight="0.05"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageButton
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/catone_btn"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:layout_weight="0.1"
+        android:id="@+id/catone_btn"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/cattwo_btn"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:layout_weight="0.1"
+        android:id="@+id/cattwo_btn"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/fat_btn"
+        android:layout_weight="0.1"
+        android:background="@null"
+        android:id="@+id/fat_btn"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/spearator"
+        android:layout_weight="0.2"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/donate_btn"
+        android:background="@null"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:id="@+id/donate_btn"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:src="@mipmap/about_us_btn"
+        android:layout_weight="0.1"
+        android:id="@+id/about_us_btn"
+        />
+
+
+
+
+
+
+</LinearLayout>

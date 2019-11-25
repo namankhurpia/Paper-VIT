@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37434D"
+    tools:context=".view.view.about_us">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/back_btn"
+        android:background="@null"
+        android:id="@+id/back_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/catonewords"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Innovation beyond limits"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/catonewords"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/continuousassesmentwords"
+
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="#22292F"
+        app:cardCornerRadius="10dp"
+
+        android:id="@+id/cardviewsearch"
+        android:layout_below="@+id/continuousassesmentwords"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Naman Khurpia"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Android + Django Developer"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="35dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tushar Singh"
+            android:layout_marginTop="85dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="iOS Developer"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="105dp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Aritro Paul"
+            android:layout_marginTop="155dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Designer"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="175dp"
+
+
+            />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/privacy_policy"
+        android:background="@null"
+        android:layout_below="@+id/cardviewsearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/privacy_policy"
+
+        />
+
+
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/sponsor"
+    android:background="@null"
+    android:scaleType="fitXY"
+    android:id="@+id/sponsor"
+    android:layout_alignParentBottom="true"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Looking for Promotion?"
+        android:textColor="#37434D"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sponsor us"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#37434D"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="visit www.adgvit.com"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#37434D"
+        />
+
+
+</RelativeLayout>

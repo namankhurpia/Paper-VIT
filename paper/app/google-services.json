@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "874563612226",
+    "firebase_url": "https://paper-vit-adg.firebaseio.com",
+    "project_id": "paper-vit-adg",
+    "storage_bucket": "paper-vit-adg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874563612226:android:c778bd5deb249eef",
+        "android_client_info": {
+          "package_name": "com.namankhurpia.paper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874563612226-8e9mnbait303ug5s6gg4mufdejsdpgpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.namankhurpia.paper",
+            "certificate_hash": "e25938278698e57a74a4a2841511fea5650452ec"
+          }
+        },
+        {
+          "client_id": "874563612226-v8nk6pnnbu6h091tlaol5j1qve5arqqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTNsDwCkKlzUeJ0U_MEF1uLmc_S6bhrh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874563612226-v8nk6pnnbu6h091tlaol5j1qve5arqqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
