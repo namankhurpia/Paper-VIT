@@ -63,11 +63,6 @@ public class catone extends AppCompatActivity {
 
 
 
-      /* mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-9666602807571879~1577101558");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-        */
-
 
         SearchManager searchManager=(SearchManager)getSystemService(Context.SEARCH_SERVICE);
         searchView=(SearchView)findViewById(R.id.searchview);
