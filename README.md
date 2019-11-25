@@ -3,13 +3,14 @@ This repository contains my personal project for VIT UNIVERSITY, a question pape
 
 Features - 
 
-facebook Ads for monetisation 
-Exception handling classes for Internet preferences
-MVC Architecture
-response time - less than 2 seconds
+facebook Ads for monetisation <br>
+Exception handling classes for Internet preferences<br>
+MVC Architecture<br>
+response time - less than 2 seconds<br>
 
-
-UI screens - 
+<br>
+UI screens -
+<br><br>
 ![alt text](https://raw.githubusercontent.com/namankhurpia/Paper-VIT/master/ui%20screen/Android%20Mobile%20%E2%80%93%2017.png)
 ![alt text](https://raw.githubusercontent.com/namankhurpia/Paper-VIT/master/ui%20screen/Android%20Mobile%20%E2%80%93%2021.png)
 ![alt text](https://raw.githubusercontent.com/namankhurpia/Paper-VIT/master/ui%20screen/Android%20Mobile%20%E2%80%93%2022.png)
